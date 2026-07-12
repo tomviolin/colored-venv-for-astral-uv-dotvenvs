@@ -51,12 +51,20 @@ Now it becomes straightforward to associate a venv with a project source tree or
 
 After some time frequently switching from one project to the next, it became very annoying to have to continually type `. ./.venv/bin/activate` when switching projects. Not only that, but forgetting to do so could potentially lead to `venv` mismanagement when you start inavertently adding/deleting modules from the wrong venv.
 
+# The future!
+https://youtu.be/iDhy1ta6270?si=Iy4hdocMDTdIFECd&t=38
+[^3]
+Seriously, if anyone wants to take this idea and make a better script, or take this script and make a better idea, be my guest.
+
 
 
 [^0]: I named it that so that someone doesn't just plop the file into their home directory and blow away their actually active .bash_aliases file (not that I've ever done that... who, me?)
 [^1]:  With `conda`/`micromamba`[^2] of course, all <b>venv</b>'s are restricted to only be kept within the `anaconda` / `micromamba` directory, in a flat structure. When you are working on multiple projects, it becomes difficult to match up the project files in the normaal project folder to the correct `conda`/`micromamba` repo that  you have been using.
 [^2]: or it's C++-written mini-me, micromamba
+[^3]: I'm a lifelong Michael J. Fox fan.  I've got all his diseases. (Well, really just the Parkinson's, but believe me, that's enough!!)
 
-```bash
+
+
 
 ```
+ 
