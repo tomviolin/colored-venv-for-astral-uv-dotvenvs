@@ -4,17 +4,14 @@
 Intended for users of astral `uv`, this is a script to be pasted into a Linux user's `.bash_aliases` . It provides a dynamic colored prompt prefix indicating what .venv virtual environment is active, and to automatically activate the .venv virtual environment with PROMPT_COMMAND.
 
 ## THE SOLUTION: (or at least a handy tool): <b>colored-venv-for-astral-uv-dotvenvs<b>
-
 Catchy name I know. But it is what it is for now.
 
 Just place the code from the bash_aliases file (no leading dot on purpose [^0] ) in this repo into your existing `~/.bash_aliases` file, or create a new blank `.bash_aliases` file and place the contents of the `bash_aliases` file into it. 
 
 ## What happens?
-
 Whenever your `bash` prompt is displayed, the script causes the shell to check if there is a `.venv` folder in the current directory, and if said directory contains the file `bin/activate`.  If so, it <b>automatically activates</b> the venv!  (It also deactivates any prior activated venv.) This activation results in an <b>immediate</b> update of the venv prompt prefix. <b>VERY COOL!</b>
 
 ## but wait, there's more
-
 In addition, the venv prompt prefix is <b>color coded</b> as follows:
 1. bright red background: The script <b>just</b> switched you to a different venv than you were in before.
 2. blue text: you are currently in the directory where your activated venv is located.
