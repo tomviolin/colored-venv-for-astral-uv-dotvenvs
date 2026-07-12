@@ -18,8 +18,10 @@ In addition, the venv prompt prefix is <b>color coded</b> as follows:
 3. gray: you `chdir`-ed (or `cd`-ed) into a directory where no .venv environment exists, but you still have a venv activated from a previous directory.
 
 
+## Quick demo (completely non-interactive, but maybe gives you an idea)
 
-
+This just shows me changing to various directories containing various projects that I work with. The three directories that have `.venv` virtual environments are  `mn`, `auther`, and `surf/holosurf`.
+<img width="860" height="322" alt="image" src="https://github.com/user-attachments/assets/a2a0c035-f156-4385-a460-9c09d0814bd4" />
 
 ## Introduction
 I developed this script for my own private use, to help me keep mulipile Python virtual environments, or <b>venv</b>'s, organized and managable.
