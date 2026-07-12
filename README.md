@@ -2,6 +2,12 @@
 
 ## Quick description
 Intended for users of astral `uv`, this is a script to be pasted into a Linux user's `.bash_aliases` . It provides a dynamic colored prompt prefix indicating what .venv virtual environment is active, and to automatically activate the .venv virtual environment with PROMPT_COMMAND.
+## Quick demo (completely non-interactive, but maybe gives you an idea)
+
+This just shows me changing to various directories containing various projects that I work with. The three directories that have `.venv` virtual environments are  `mn`, `auther`, and `surf/holosurf`.
+
+<img width="860" height="322" alt="image" src="https://github.com/user-attachments/assets/a2a0c035-f156-4385-a460-9c09d0814bd4" />
+
 
 ## THE SOLUTION: (or at least a handy tool): <b>colored-venv-for-astral-uv-dotvenvs</b>
 Catchy name I know. But it is what it is for now.
@@ -17,11 +23,6 @@ In addition, the venv prompt prefix is <b>color coded</b> as follows:
 2. blue text: you are currently in the directory where your activated venv is located.
 3. gray: you `chdir`-ed (or `cd`-ed) into a directory where no .venv environment exists, but you still have a venv activated from a previous directory.
 
-
-## Quick demo (completely non-interactive, but maybe gives you an idea)
-
-This just shows me changing to various directories containing various projects that I work with. The three directories that have `.venv` virtual environments are  `mn`, `auther`, and `surf/holosurf`.
-<img width="860" height="322" alt="image" src="https://github.com/user-attachments/assets/a2a0c035-f156-4385-a460-9c09d0814bd4" />
 
 ## Introduction
 I developed this script for my own private use, to help me keep mulipile Python virtual environments, or <b>venv</b>'s, organized and managable.
